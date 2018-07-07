@@ -89,6 +89,12 @@ function reset()
 	$(document).ready(function(){
 		$("#stop_resume_button").html("stop/resume");
 	});
+	for(d=1; d<100; d++)
+	{
+		list[d]="00:00:00";
+	}
+	affichelaps(1,5);
+
 }
 
 function stopresume()
