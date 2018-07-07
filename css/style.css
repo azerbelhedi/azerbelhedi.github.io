@@ -1,0 +1,148 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+div
+{
+	width:700px;
+	opacity: 0.9;
+}
+
+#all
+{
+	background-color:black;
+	height: 685px;
+	position: absolute;
+	right :300px;
+}
+#head
+{
+	background-color:#999999;
+	height: 170px;
+}
+
+#head:hover
+{
+	opacity:1;
+}
+
+
+#body
+{
+	height: 450px;
+	background-color: #999999;
+}
+
+#bodyleft
+{
+	float: left;
+	background-color: #999999;
+	height: 450px;
+	width: 250px;
+}
+
+#bodyleft:hover
+{
+	opacity:1;
+}
+
+
+#bodyright
+{
+	float: right;
+	background-color: #999999;
+	height: 450px;
+	width: 440px;
+}
+
+#bodyright:hover
+{
+	opacity:1;
+}
+
+
+#blanck
+{
+	background-color: white;
+	height: 10px;
+}
+
+#center
+{
+	background: white;
+	width: 10px;
+	height: 505px;
+	position: absolute;
+	right: 440px;
+}
+
+h1
+{
+	font-size: 140px;
+}
+
+button
+{
+	width: 200px;
+	height: 50px;
+	background-color: #777777;
+	color: black;
+	border:none;	
+}
+
+button:hover
+{
+	background-color: #555555;
+	color:white;
+}
+
+h2
+{
+	font-size:40px;
+}
+
+h2:hover
+{
+	font-size: 45px;
+}
+
+h4
+{
+	color:white;
+}
+
+body
+{
+	background-image: url("../res/back.jpg");
+}
+
+#footerright
+{
+	height: 45px;
+	width: 440px;
+	background-color: #999999;
+	position: absolute;
+	right:0px;
+}
+
+#footerleft 
+{
+	height: 45px;
+	width: 250px;
+	background-color: #999999;
+	position: absolute;	
+	float: right;	
+	left:0px;
+
+}
+
+#footerright:hover
+{
+	opacity:1;
+}
+
+#footerleft:hover
+{
+	opacity:1;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chrono2</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="all">
+		<div id="head">
+			<center>  <h1 id="output">00:00:00</h1> </center>
+		</div>
+		<div id="blanck"></div>
+		<div id="body">
+			<div id="bodyleft">
+				<center>
+				<br>
+				<button id="mode_button" onclick="switchmode()"> timer mode</button>
+				<br><br><hr><br>
+				<button id="start_button" onclick="start()" >start</button>
+				<br><br><hr><br>
+				<button id="stop_resume_button" onclick="stopresume()">stop/resume</button>
+				<br><br><hr><br>
+				<button id="reset_button" onclick="reset()">reset</button>
+				<br><br><hr><br>
+				<button id="lap_button" onclick="lapit()">lap</button>
+				<br><br>
+			</center>
+			</div>
+			<div id="center"></div>
+			<div id="bodyright">
+				<center>
+				<br><br>	
+				<button id="up_button" onclick="goup()">up</button>
+				<br><br>
+				<h2 id="lap1">1. 00:00:00</h2>
+				<h2 id="lap2">2. 00:00:00</h2>
+				<h2 id="lap3">3. 00:00:00</h2>
+				<h2 id="lap4">4. 00:00:00</h2>
+				<h2 id="lap5">5. 00:00:00</h2>
+				<br> 
+				<button id="down_button" onclick="godown()">down</button>
+					
+				</center>
+			</div>
+		</div>
+		<div id="blanck"></div>
+		<div id="footer">
+			<div id="footerright">
+				<center>
+				<p>
+					<h4>  azerbelhedide@gmail.com <hr> 54 310 717 </h4>
+				</p> 
+			</center>
+			</div>
+			<div id="footerleft">
+			<center>
+				<p>
+					<h4> made by azer belhedi <hr> july 2018 </h4>
+				</p> 
+			</center>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</html>
